@@ -1,0 +1,14 @@
+{
+"name": "praveer-21143641-BConcepts",
+"version": "1.0.0",
+"main": "distribute.js",
+"license": "education",
+"dependencies": {
+ 	"@remix-project/remixd": "^0.5.7",
+    	"big-number": "^2.0.0",
+   	"dotenv": "^16.0.0",
+    	"ethereumjs-tx": "^2.1.2",
+    	"web3": "^1.7.3",
+	"fs": "^0.0.1-security"
+  }
+}
