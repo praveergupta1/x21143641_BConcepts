@@ -63,11 +63,15 @@ DockerHub
 - Step 3: Open Terminal / command prompt and navigate to your project folder
 - Step 4: Run Command docker to verify docker installation
 - Step 5: Run Command vi Dockerfile to create Dockerfile which will be used to create image and then the container
-- Step 6: Run command <<docker build . -t node-blockchain>>
-- Step 7: Login to docker using command <<docker login>>
+- Step 6: Run command 
+	- docker build . -t node-blockchain
+- Step 7: Login to docker using command
+	- docker login
 - Step 8: Login to docker in the browser and create a public repository. Copy the repository name to be used in further steps
-- Step 9: Run the command <<docker tag node-blockchain:latest praveergupta1/x21143641_bconcepts:node-blockchain>>
-- Step 10: Run the command <<docker push praveergupta1/x21143641_bconcepts:node-blockchain>>
+- Step 9: Run the command
+	- docker tag node-blockchain:latest praveergupta1/x21143641_bconcepts:node-blockchain
+- Step 10: Run the command
+	- docker push praveergupta1/x21143641_bconcepts:node-blockchain>>
 - Step 11: Go to docker in the browser, navigate to the container and then to the Tab container to get the pull command for the respective container 
 
 
